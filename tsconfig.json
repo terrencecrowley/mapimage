@@ -1,0 +1,24 @@
+{
+	"files": [
+		"lib/all.ts",
+		"lib/mapimage.ts",
+
+    "test/test.ts",
+	],
+
+  "include": [
+    "types/**/*"
+  ],
+
+	"compilerOptions": {
+    "sourceMap": true,
+		"noImplicitAny": true,
+		"target": "es6",
+		"module": "commonjs",
+		"declaration": true,
+    "declarationDir": "dist/",
+		"types": [
+			"node"
+		]
+	}
+}

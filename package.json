@@ -1,0 +1,42 @@
+{
+  "name": "@terrencecrowley/mapimage",
+  "version": "1.0.1",
+  "description": "A utility library to convert redistricting map to image format.",
+  "main": "dist/mapimage.js",
+  "types": "dist/lib/all.d.ts",
+  "scripts": {
+    "test": "node dist/test.js",
+    "build": "webpack",
+    "webpack": "node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrencecrowley/mapimage.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Node",
+    "JSON"
+  ],
+  "author": "Terry Crowley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terrencecrowley/mapimage/issues"
+  },
+  "homepage": "https://github.com/terrencecrowley/mapimage#readme",
+  "devDependencies": {
+    "@types/node": "10.12.23",
+    "json-loader": "^0.5.7",
+    "node-loader": "^0.6.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.3",
+    "tsify": "^4.0.1",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "@terrencecrowley/util": "^1.0.15",
+    "canvas": "^2.5.0"
+  }
+}
