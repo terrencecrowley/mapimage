@@ -33,7 +33,7 @@
     "tsify": "^4.0.1",
     "typescript": "^3.3.3",
     "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "@terrencecrowley/util": "^1.0.15",
